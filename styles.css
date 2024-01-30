@@ -1,0 +1,19 @@
+/* @import url(""); */
+
+:root{
+    --primaryColor: #f09d51;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainSpacing: 0.1rem;
+    --mainTransition: all 0.3s linear;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: var(--mainBlack);
+    background: var(--mainWhite);
+    font-family: "lato", sans-serif;
+}
